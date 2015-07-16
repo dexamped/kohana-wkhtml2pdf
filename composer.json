@@ -1,0 +1,24 @@
+{
+    "name":         "dexamped/kohana-wkhtml2pdf",
+    "description":  "Kohana wrapper for wkhtml2pdf",
+    "license":      "BSD-3-Clause",
+    "type":         "kohana-module",
+    "keywords":     ["wkhtml2pdf", "kohana"],
+    "authors": [
+        {
+            "name": "Chris",
+            "email": "dexamped@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "kohana/core":         ">=3.3",
+        "php":                 ">=5.3.3",
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/{$vendor}/{$name}": ["type:kohana-module"]
+        }
+    }
+}
